@@ -1,0 +1,30 @@
+@model GBC_Travel_Group_48.Models.Hotel
+
+@{
+    ViewData["Title"] = "Delete Hotel";
+}
+
+<div class="container mt-4">
+    <h2>Delete Hotel</h2>
+    <h3 class="text-danger">Are you sure you want to delete this?</h3>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Name</dt>
+        <dd class="col-sm-10">@Model.Name</dd>
+
+        <dt class="col-sm-2">Location</dt>
+        <dd class="col-sm-10">@Model.Location</dd>
+
+        <dt class="col-sm-2">Star Rating</dt>
+        <dd class="col-sm-10">@Model.StarRating / 10</dd>
+
+        <dt class="col-sm-2">Price Per Night</dt>
+        <dd class="col-sm-10">$@Model.PricePerNight.ToString("N2")</dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="HotelId" />
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </form>
+</div>
