@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GBC_Travel-Group-48")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11cfda7bbb986e45871493ee4aaf0991277e1f99")]
 [assembly: System.Reflection.AssemblyProductAttribute("GBC_Travel-Group-48")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GBC_Travel-Group-48")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
